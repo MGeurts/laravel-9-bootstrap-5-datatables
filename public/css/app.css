@@ -11284,7 +11284,7 @@ textarea.form-control-lg {
 }
 @font-face {
   font-family: "bootstrap-icons";
-  src: url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff2?1e23936ab73110e5ab2dd8a817a75f7b) format("woff2"), url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?5747cea3e49289fd04376fd1f03b14ac) format("woff");
+  src: url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff2?d0ec932c09e146590948e8552a3f4300) format("woff2"), url(/fonts/vendor/bootstrap-icons/bootstrap-icons.woff?67475f65d9d8a1fe03a2501298bdf929) format("woff");
 }
 .bi::before,
 [class^=bi-]::before,
@@ -16936,7 +16936,7 @@ textarea.form-control-lg {
   body {
     padding-top: 4.5rem;
     color: #3A3C42;
-    background-color: #ffffff;
+    background-color: #ffffff !important;
   }
 
   .navbar {
