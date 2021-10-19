@@ -1,12 +1,5 @@
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
-<p align="center">
-<a href="https://travis-ci.org/laravel/framework"><img src="https://travis-ci.org/laravel/framework.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
-
 ## About this project
 
 This application is PHP 8 compatible and build using :
@@ -43,19 +36,21 @@ This application is PHP 8 compatible and build using :
 
 ## Special feature
 
-The top menu contains in its center a dropdown selector for the year. This is implemented as a global session variable [APP].[YEAR] and allows you to easely filter datatable datasets (when needed) to reflect the data concerning the selected year. This is extreem helpfull if you manage models that depend on the year, like for instance deliveries, orders, productions, and so on...
+<p>The top menu contains in its center a dropdown selector for the year. This is implemented as a global session variable [APP].[YEAR] and allows you to easely filter datatable datasets (when needed) to reflect the data concerning the selected year. This is extreem helpfull if you manage models that depend on the year, like for instance deliveries, orders, productions, and so on...</p>
 
 ## Models implemented
 
 In this demo project, 2 models are already implemented :
-<b>Customers</b>, available to all logged in users
-<b>Users</b>, only available to logged in users with the property Developer
+<ul>
+    <li><b>Customers</b>, available to all logged in users</li>
+    <li><b>Users</b>, only available to logged in users with the property Developer</li>
+</ul>
 You can use their controller and the corresponding views as a base to create new datatables utilising your own project models.
 
 ## Credentials
 
-Name : <b>admin@admin.com</b>
-Password <b>password</b>
+<p>Name : <b>admin@admin.com</b></p>
+<p>Password : <b>password</b></p>
 
 ## License
 
