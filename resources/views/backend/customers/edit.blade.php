@@ -424,7 +424,7 @@
             $('#btnClear').click(function() {
                 $('#delivery_address_street').val('');
                 $('#delivery_address_number').val('');
-                $('#delivery_address_country').val('');
+                $('#delivery_address_country').val('').trigger('change');
                 $('#delivery_address_postal_code').val('');
                 $('#delivery_address_place').val('');
             });
