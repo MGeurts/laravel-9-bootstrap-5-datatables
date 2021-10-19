@@ -432,7 +432,8 @@
             $('#btnCopy').click(function() {
                 $('#delivery_address_street').val($('#address_street').val());
                 $('#delivery_address_number').val($('#address_number').val());
-                $('#delivery_address_country').val($('#address_country').find("option:selected").val());
+                $('#delivery_address_country').val($('#address_country').find("option:selected").val())
+                    .trigger('change');
                 $('#delivery_address_postal_code').val($('#address_postal_code').val());
                 $('#delivery_address_place').val($('#address_place').val());
             });
