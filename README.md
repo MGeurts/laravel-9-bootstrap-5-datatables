@@ -1,4 +1,6 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
+<p align="center">
+    <img src="https://www.kreaweb.be/wp-content/uploads/2021/10/laravel-bootstrap-datatables-001-768x576.png" width="400">
+</p>
 
 ## About this project
 
@@ -11,7 +13,6 @@ This application is PHP 8 compatible and build using :
 
 ## Features
 
-<b>Features</b> :
 <ul>
     <li><b>Top button bar</b> to quickly navigate to the main parts of your application</li>
     <li><b>Offcanvas menu</b> to access less frequently used parts</li>
