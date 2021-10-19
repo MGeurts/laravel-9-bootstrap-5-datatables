@@ -37,7 +37,7 @@ This application is PHP 8 compatible and build using :
 
 ## Special feature
 
-<p>The top menu contains in its center a dropdown selector for the year. This is implemented as a global session variable [APP].[YEAR] and allows you to easely filter datatable datasets (when needed) to reflect the data concerning the selected year. This is extreem helpfull if you manage models that depend on the year, like for instance deliveries, orders, productions, and so on...</p>
+<p>The top menu contains in its center a dropdown selector for the year. This is implemented as a global session variable <b>[APP].[YEAR]</b> and allows you to easely filter datatable datasets (when needed) to reflect the data concerning the selected year. This is extreem helpfull if you manage models that depend on the year, like for instance deliveries, orders, productions, and so on ...</p>
 
 ## Models implemented
 
@@ -52,6 +52,10 @@ You can use their controller and the corresponding views as a base to create new
 
 <p>Name : <b>admin@admin.com</b></p>
 <p>Password : <b>password</b></p>
+
+## Documentation
+
+<a href="https://www.kreaweb.be/laravel-8-bootstrap-5-datatables/" target="_blank">https://www.kreaweb.be/laravel-8-bootstrap-5-datatables/</a>
 
 ## License
 
