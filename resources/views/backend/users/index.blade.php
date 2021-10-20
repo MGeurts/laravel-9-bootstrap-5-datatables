@@ -47,7 +47,7 @@
             let createButton = {
                 className: 'btn-success',
                 text: '<i class="bi bi-plus"></i>',
-                titleAttr: 'Toevoegen',
+                titleAttr: 'Add',
                 enabled: true,
                 action: function(e, dt, node, config) {
                     var url = '{{ route('backend.users.create') }}';
@@ -61,7 +61,7 @@
                 extend: 'selectedSingle',
                 className: 'btn-primary selectOne',
                 text: '<i class="bi bi-pencil"></i>',
-                titleAttr: 'Wijzigen',
+                titleAttr: 'Edit',
                 enabled: false,
                 action: function(e, dt, node, config) {
                     var id = dt.row({
@@ -79,7 +79,7 @@
             let clearButton = {
                 className: 'btn-secondary',
                 text: '<i class="bi bi-arrow-counterclockwise"></i>',
-                titleAttr: 'Verwijder filter en sortering',
+                titleAttr: 'Reset filter and sort',
                 action: function(e, dt, node, config) {
                     dt.state.clear();
                     window.location.reload();
@@ -91,7 +91,7 @@
                 extend: 'selected',
                 className: 'btn-danger selectMultiple',
                 text: '<i class="bi bi-trash"></i>',
-                titleAttr: 'Verwijderen',
+                titleAttr: 'Delete',
                 enabled: false,
                 url: "{{ route('backend.users.massDestroy') }}",
                 action: function(e, dt, node, config) {
@@ -104,21 +104,21 @@
                     if (ids.length === 0) {
                         bootbox.alert({
                             title: 'Error ...',
-                            message: 'Niets geselecteerd'
+                            message: 'Nothing selected'
                         });
                         return
                     }
 
                     bootbox.confirm({
-                        title: 'Item(s) verwijderen ...',
-                        message: "Bent u zeker?",
+                        title: 'Delete item(s) ...',
+                        message: "Are you sure?",
                         buttons: {
                             confirm: {
-                                label: 'Ja',
+                                label: 'Yes',
                                 className: 'btn-sm btn-primary'
                             },
                             cancel: {
-                                label: 'Neen',
+                                label: 'No',
                                 className: 'btn-sm btn-secondary'
                             }
                         },
@@ -136,8 +136,8 @@
 
                                         showToast({
                                             type: 'success',
-                                            title: 'Verwijderen ...',
-                                            message: 'De selectie werd verwijderd.',
+                                            title: 'Delete ...',
+                                            message: 'The selection has been deleted.',
                                         });
                                     }
                                 });

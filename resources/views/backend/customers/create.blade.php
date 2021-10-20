@@ -145,7 +145,7 @@
 
                             <div class="col-md-1">
                                 <button type="button" class="btn btn-outline-secondary btn-sm" id="btnMapFacturation"
-                                    name="btnMapFacturation" title="Toon adres op kaart" tabindex="-1">
+                                    name="btnMapFacturation" title="Show address on map" tabindex="-1">
                                     <img src="{{ asset('img/icons/google-maps-location.png') }}"
                                         class="img-fluid mx-auto d-block" />
                                 </button>
@@ -294,7 +294,7 @@
 
                             <div class="col-md-1">
                                 <button type="button" class="btn btn-outline-secondary btn-sm" id="btnMapLevering"
-                                    name="btnMapLevering" title="Toon adres op kaart" tabindex="-1">
+                                    name="btnMapLevering" title="Show address on map" tabindex="-1">
                                     <img src="{{ asset('img/icons/google-maps-location.png') }}"
                                         class="img-fluid mx-auto d-block" />
                                 </button>
