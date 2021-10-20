@@ -35,8 +35,10 @@
                             to navigate the pages.
                         </li>
                         <hr />
-                        <li>Select a row by clicking in one of its cells. Repeat to deselect.
-                            Select multiple rows by clicking them while pressing the CTRL key.<br /><br />
+                        <li>Select a row by clicking in one of its cells (except those with orange column
+                            headers).<br />
+                            Repeat to deselect. Select multiple rows by clicking them while pressing the CTRL
+                            key.<br /><br />
                             Above the table, on the left-hand side, use the buttons :
                             <ul>
                                 <li>
@@ -62,12 +64,12 @@
                                 <li>
                                     <button type="button" class="btn btn-secondary btn-sm disabled">
                                         <i class="bi bi-pencil"></i>
-                                    </button> to show the items details
+                                    </button> to show the item details
                                 </li>
                                 <li>
                                     <button type="button" class="btn btn-primary btn-sm disabled">
                                         <i class="bi bi-eye"></i>
-                                    </button> to edit an item
+                                    </button> to edit the item
                                 </li>
                             </ul>
                         </li>
@@ -84,7 +86,7 @@
                                 <li>
                                     <button type="button" class="btn btn-danger btn-sm disabled">
                                         <i class="bi bi-trash"></i>
-                                    </button> to delete an item
+                                    </button> to delete the selected item(s)
                                 </li>
                             </ul>
                         </li>
@@ -109,9 +111,9 @@
                     <ol>
                         <li>Click on the arrows in the column headers to sort on that column. Repeat to reverse the
                             sorting.</li>
-                        <li>You can sort on multiple columns by holding the SHIFT key while clicking the arrows.</li>
+                        <li>You can sort on multiple columns by pressing the SHIFT key while clicking the arrows.</li>
                         <hr />
-                        <li>Above the table, on the left-hand side, the button
+                        <li>Above the table, on the right-hand side, the button
                             <button type="button" class="btn btn-secondary btn-sm disabled">
                                 <i class="bi bi-arrow-counterclockwise"></i>
                             </button> resets the sorting and also clears the search
@@ -141,10 +143,10 @@
                         <li>Remove the search criteria or click the cross in the search box to clear the search.
                         </li>
                         <hr />
-                        <li>Above the table, on the left-hand side, the button
+                        <li>Above the table, on the right-hand side, the button
                             <button type="button" class="btn btn-secondary btn-sm disabled">
                                 <i class="bi bi-arrow-counterclockwise"></i>
-                            </button> also clears the search and also resets the sorting
+                            </button> not only clears the search but also resets the sorting
                         </li>
                     </ol>
                 </small>
@@ -236,22 +238,22 @@
                                 <li>
                                     <button type="button" class="btn btn-outline-secondary btn-sm disabled">
                                         <i class="bi bi-clipboard"></i>
-                                    </button> to copy the shown items to the clipboard
+                                    </button> to copy the shown (or selected) items to the clipboard
                                 </li>
                                 <li>
                                     <button type="button" class="btn btn-secondary btn-sm disabled">
                                         <i class="bi bi-file-earmark-pdf"></i>
-                                    </button> to export the shown items to a PDF file
+                                    </button> to export the shown (or selected) items to a PDF file
                                 </li>
                                 <li>
                                     <button type="button" class="btn btn-secondary btn-sm disabled">
                                         <i class="bi bi-file-earmark-excel"></i>
-                                    </button> to export the shown items to an Excel spreadsheet
+                                    </button> to export the shown (or selected) items to an Excel spreadsheet
                                 </li>
                                 <li>
                                     <button type="button" class="btn btn-secondary btn-sm disabled">
                                         <i class="bi bi-printer"></i>
-                                    </button> to print the shown items
+                                    </button> to print the shown (or selected) items
                                 </li>
                             </ul>
                         </li>
