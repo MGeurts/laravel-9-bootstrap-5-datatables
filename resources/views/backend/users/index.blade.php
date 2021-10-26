@@ -24,12 +24,12 @@
             </div>
 
             <table id="sqltable" class="table table-bordered table-striped table-hover table-sm dataTable">
-                <thead>
+                <thead class="table-success">
                     <tr>
                         <th scope="col" width="4%">ID</th>
                         <th scope="col">Name</th>
                         <th scope="col">E-mail</th>
-                        <th scope="col" class="text-warning">Developer ?</th>
+                        <th scope="col" class="text-danger">Developer ?</th>
                     </tr>
                 </thead>
             </table>

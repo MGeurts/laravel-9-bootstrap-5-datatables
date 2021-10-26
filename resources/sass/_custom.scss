@@ -45,60 +45,26 @@ print {
     }
 
     /* -------------------------------------------- */
-    table.tablesorter thead th,
-    table.tablesorter tfoot th,
-    table.tablesorter tfoot td,
-    table.tablesorter tbody td {
-        font-size: 11px;
-        padding: 0.2rem;
-        border: 1px solid #dee2e6;
-    }
-
-    /* -------------------------------------------- */
-    .mytable thead tr th {
-        color: #000 !important;
-        background-color: #D3D3D3 !important;
-        text-align: center;
-    }
-
-    .mytable tbody tr td {
-        color: #000;
-        background-color: #fff;
-    }
-
-    .mytable tbody tr.bg-primary td {
-        background-color: #cce5ff;
-    }
-
-    .mytable tbody tr.bg-secondary td {
-        background-color: #e2e3e5;
-    }
-
-    .mytable tbody tr.bg-success td {
-        background-color: #d4edda;
-    }
-
-    .mytable tbody tr.bg-info td {
-        background-color: #d1ecf1;
-    }
-
-    .mytable tbody tr.bg-warning td {
-        background-color: #fff3cd;
-    }
-
-    .mytable tbody tr.bg-danger td {
-        background-color: #f8d7da;
-    }
-
-    .mytable tfoot tr td {
-        color: #000;
-        background-color: #D3D3D3;
-    }
-
-    /* -------------------------------------------- */
     #toast-container>div {
         opacity: 1 !important;
     }
 
     /* -------------------------------------------- */
+    table.mytable {
+        box-sizing: border-box;
+        border-collapse: collapse;
+        font-size: .8rem;
+        width: 100% !important
+    }
+
+    table.mytable thead th {
+        padding: 0.2rem;
+    }
+
+    table.mytable tbody td {
+        padding: 0.2rem;
+    }
+
+    /* -------------------------------------------- */
+
 }

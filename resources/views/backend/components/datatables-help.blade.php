@@ -194,14 +194,14 @@
                     <ol>
                         <li>
                             Click on cells in columns having a
-                            <b><span class="text-dark">black</span></b>
-                            heading to show details.
+                            <b><span class="text-primary">blue</span></b>
+                            header to show details.
                         </li>
                         <hr />
                         <li>
                             Click on cells in columns having an
-                            <b><span class="text-warning">orange</span></b>
-                            heading to toggle the value.
+                            <b><span class="text-danger">red</span></b>
+                            header to toggle the value.
                         </li>
                     </ol>
                 </small>

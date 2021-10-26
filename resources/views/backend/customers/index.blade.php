@@ -24,7 +24,7 @@
             </div>
 
             <table id="sqltable" class="table table-bordered table-striped table-hover table-sm dataTable">
-                <thead>
+                <thead class="table-success">
                     <tr>
                         <th scope="col" width="4%">ID</th>
                         <th scope="col">Last name</th>
@@ -34,7 +34,7 @@
                         <th scope="col">Country</th>
                         <th scope="col">Place</th>
                         <th scope="col">Phone</th>
-                        <th scope="col" class="text-warning">Newsletter ?</th>
+                        <th scope="col" class="text-danger">Newsletter ?</th>
                     </tr>
                 </thead>
             </table>
@@ -321,9 +321,9 @@
 
                 var strHTML = '';
                 strHTML += '<table class="table table-bordered table-sm mytable">';
-                strHTML += '<thead>';
+                strHTML += '<thead class="table-success">';
                 strHTML +=
-                    '<tr><th>ID</th><th>Customer</th><th>Company</th><th>Place</th><th>Send newsletter ?</th></tr>';
+                    '<tr><th class="text-center">ID</th><th>Customer</th><th>Company</th><th>Place</th><th class="text-center">Send newsletter ?</th></tr>';
                 strHTML += '</thead>';
                 strHTML += '<tbody>';
                 strHTML += '<tr>';
@@ -355,7 +355,7 @@
                 strHTML += '</tr>';
                 strHTML += '</tbody>';
                 strHTML += '</table>';
-                strHTML += '<div>Are you sure you want to edit the items above?</div>';
+                strHTML += '<div>Are you sure you want to edit the item above?</div>';
                 return strHTML;
             };
             /* ------------------------------------------- */
