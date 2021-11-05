@@ -37,11 +37,10 @@
             url: "{{ asset('json/datatables/i18n/en_gb.json') }}"
         },
         lengthMenu: [
-            [5, 10, 15, 20, 25, 50, 75, 100, -1],
-            [5, 10, 15, 20, 25, 50, 75, 100, "All"]
+            [20, 25, 50, 75, 100, -1],
+            [20, 25, 50, 75, 100, "All"]
         ],
         pagingType: 'full_numbers',
-        pageLength: 20,
         mark: {
             element: 'span',
             className: 'bg-info'
