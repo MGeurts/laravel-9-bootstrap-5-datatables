@@ -40,6 +40,7 @@
             [20, 25, 50, 75, 100, -1],
             [20, 25, 50, 75, 100, "All"]
         ],
+        pageLength: 20,
         pagingType: 'full_numbers',
         mark: {
             element: 'span',
