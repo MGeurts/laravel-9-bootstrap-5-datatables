@@ -11,8 +11,7 @@
     <div class="card-body p-0">
         <div id="MyCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="0" aria-label="Slide 1"
-                    aria-current="true" class="active"></button>
+                <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="0" aria-label="Slide 1" aria-current="true" class="active"></button>
                 <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
                 <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 <button type="button" data-bs-target="#MyCarousel" data-bs-slide-to="3" aria-label="Slide 4"></button>
@@ -42,7 +41,7 @@
                 <div class="carousel-item">
                     <img src="{{ asset('img/carousel/004.jpg') }}" class="d-block w-100" alt="006">
                     <div class="carousel-caption d-none d-md-block">
-                        <h5>Laravel 8</h5>
+                        <h5>Laravel 9</h5>
                     </div>
                 </div>
                 <div class="carousel-item">

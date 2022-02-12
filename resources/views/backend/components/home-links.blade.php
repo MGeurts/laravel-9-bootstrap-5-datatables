@@ -16,7 +16,7 @@
         <hr />
         This application is <a href="https://www.php.net/" target="_blank">PHP 8</a> compatible and build using :
         <ul>
-            <li><a href="https://laravel.com/" target="_blank">Laravel 8</a></li>
+            <li><a href="https://laravel.com/" target="_blank">Laravel 9</a></li>
             <li><a href="https://getbootstrap.com/" target="_blank">Bootstrap 5</a></li>
             <li><a href="https://datatables.net/" target="_blank">DataTables</a></li>
         </ul>
