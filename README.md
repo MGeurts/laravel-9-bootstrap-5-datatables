@@ -57,6 +57,10 @@ You can use their controller and the corresponding views as a base to create new
 
 <a href="https://www.kreaweb.be/laravel-8-bootstrap-5-datatables/" target="_blank">https://www.kreaweb.be/laravel-8-bootstrap-5-datatables/</a>
 
+## PHP
+
+<b>Be aware you need at least PHP 8.0 to use this project!</b>
+
 ## License
 
 This demo Larevel project is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
