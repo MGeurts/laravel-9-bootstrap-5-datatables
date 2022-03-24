@@ -59,13 +59,22 @@ class UserController extends Controller
 
     public function update(UserUpdateRequest $request, User $user)
     {
-        $user->update($request->except(['token']));
+        if ($user->id == 1) {
+            $notification = [
+                "type" => "info",
+                "title" => 'Edit ...',
+                "message" => 'This account is read only.',
+            ];
+        } else {
+            $user->update($request->except(['token']));
 
-        $notification = [
-            "type" => "success",
-            "title" => 'Edit ...',
-            "message" => 'Item updated.',
-        ];
+            $notification = [
+                "type" => "success",
+                "title" => 'Edit ...',
+                "message" => 'Item updated.',
+            ];
+
+        }
 
         return redirect()->route('backend.users.index')->with('notification', $notification);
     }
