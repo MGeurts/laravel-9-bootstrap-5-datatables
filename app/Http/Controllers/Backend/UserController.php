@@ -63,7 +63,7 @@ class UserController extends Controller
             $notification = [
                 "type" => "info",
                 "title" => 'Edit ...',
-                "message" => 'This account is read only.',
+                "message" => 'This account is read-only.',
             ];
         } else {
             $user->update($request->except(['token']));
@@ -81,7 +81,7 @@ class UserController extends Controller
 
     public function massDestroy(Request $request)
     {
-        User::whereIn('id', request('ids'))->delete();
+        User::where('id', '>', 1)->whereIn('id', request('ids'))->delete();
 
         return response()->noContent();
     }

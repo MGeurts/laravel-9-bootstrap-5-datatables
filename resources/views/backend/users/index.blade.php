@@ -240,30 +240,39 @@
                 var key = 'is_developer';
                 var value = oTable.cell(this).data();
 
-                bootbox.confirm({
-                    title: 'Edit ...',
-                    message: MyItem(id, key, value),
-                    size: 'xl',
-                    onEscape: true,
-                    backdrop: true,
-                    buttons: {
-                        confirm: {
-                            label: 'Yes',
-                            className: 'btn-success'
+                if (id == 1) {
+                    bootbox.dialog({
+                        title: "Edit ...",
+                        message: "This record is read-only.",
+                        onEscape: true,
+                        backdrop: true,
+                    });
+                } else {
+                    bootbox.confirm({
+                        title: 'Edit ...',
+                        message: MyItem(id, key, value),
+                        size: 'xl',
+                        onEscape: true,
+                        backdrop: true,
+                        buttons: {
+                            confirm: {
+                                label: 'Yes',
+                                className: 'btn-success'
+                            },
+                            cancel: {
+                                label: 'No',
+                                className: 'btn-secondary'
+                            }
                         },
-                        cancel: {
-                            label: 'No',
-                            className: 'btn-secondary'
-                        }
-                    },
-                    callback: function(confirmed) {
-                        if (confirmed) {
-                            value = value == 0 ? 1 : 0;
+                        callback: function(confirmed) {
+                            if (confirmed) {
+                                value = value == 0 ? 1 : 0;
 
-                            setValue(table, id, key, value);
+                                setValue(table, id, key, value);
+                            }
                         }
-                    }
-                });
+                    });
+                }
             });
             /* ------------------------------------------------------------------------ */
             /* FUNCTIONS - MyItem, setValue                     					    */
