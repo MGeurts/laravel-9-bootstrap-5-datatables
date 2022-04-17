@@ -32,6 +32,7 @@ This application is PHP 8 compatible and build using :
         <li>Multiple row selection (for mass deletes)</li>
         <li>Inline boolean field toggable</li>
         <li>Help</li>
+        <li>Datatables are responsive on smaller screens</li>
     </ul>
 </ul>
 
