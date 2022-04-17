@@ -54,7 +54,7 @@ You can use their controller and the corresponding views as a base to create new
 <p>Name : <b>admin@admin.com</b></p>
 <p>Password : <b>password</b></p>
 
-## Documentation
+## Documentation and online demo
 
 <a href="https://www.kreaweb.be/laravel-8-bootstrap-5-datatables/" target="_blank">https://www.kreaweb.be/laravel-8-bootstrap-5-datatables/</a>
 
