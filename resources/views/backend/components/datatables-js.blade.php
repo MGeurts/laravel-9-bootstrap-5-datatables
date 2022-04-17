@@ -8,6 +8,7 @@
 <script src="https://cdn.datatables.net/buttons/2.0.1/js/buttons.html5.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.0.1/js/buttons.print.min.js"></script>
 <script src="https://cdn.datatables.net/buttons/2.0.1/js/buttons.colVis.min.js"></script>
+<script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
 
 <script src="https://cdn.datatables.net/plug-ins/1.11.3/features/mark.js/datatables.mark.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js"></script>
@@ -33,6 +34,7 @@
         deferRender: true,
         stateSave: true,
         stateDuration: -1,
+        responsive: true,
         language: {
             url: "{{ asset('json/datatables/i18n/en_gb.json') }}"
         },
