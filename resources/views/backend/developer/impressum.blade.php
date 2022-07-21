@@ -4,20 +4,18 @@
     <div class="accordion" id="accordionImpressum">
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingOne">
-                <button class="accordion-button" type="button" data-bs-toggle="collapse" aria-expanded="true"
-                    data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" aria-expanded="true" data-bs-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
                     Dependencies
                 </button>
             </h2>
 
-            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-                data-bs-parent="#accordionImpressum">
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionImpressum">
                 <div class="accordion-body">
                     <p>Bootstrap :</p>
 
                     <ul>
-                        <li><a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> - 5.1.3</li>
-                        <li><a target="_blank" href="http://bootboxjs.com/documentation.html">Bootbox</a> - 5.5.2</li>
+                        <li><a target="_blank" href="https://getbootstrap.com/">Bootstrap</a> - 5.2.0</li>
+                        <li><a target="_blank" href="http://bootboxjs.com/documentation.html">Bootbox</a> - 5.5.3</li>
                     </ul>
                     <br />
 
@@ -38,7 +36,7 @@
                     </ul>
 
                     <ul>
-                        <li><a target="_blank" href="https://datatables.net/download/packages">DataTables</a> - 1.11.3</li>
+                        <li><a target="_blank" href="https://datatables.net/download/packages">DataTables</a> - 1.12.1</li>
                         <li><a target="_blank" href="https://github.com/yajra/laravel-datatables">Yajra DataTables</a>-
                             9.18.1</li>
                     </ul>
@@ -57,14 +55,12 @@
 
         <div class="accordion-item">
             <h2 class="accordion-header" id="headingTwo">
-                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                    data-bs-target="#collapseTwo" aria-controls="collapseTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-controls="collapseTwo">
                     Webserver
                 </button>
             </h2>
 
-            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                data-bs-parent="#accordionImpressum">
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionImpressum">
                 <div class="accordion-body">
                     <p>This application is created using <a href="https://laragon.org/" target="_blank">LARAGON</a>
                         webserver in its latest version :</p>
@@ -112,16 +108,10 @@
                         </tr>
 
                         <tr>
-                            <td class="text-center">
-                                @php
-                                    if (preg_match('/Apache\/(.*?) /', apache_get_version(), $match) == 1) {
-                                        echo $match[1];
-                                    }
-                                @endphp
-                            </td>
+                            <td class="text-center">????</td>
                             <td class="text-center">@php echo phpversion(); @endphp</td>
-                            <td class="text-center">8.0.26</td>
-                            <td class="text-center">5.1.1</td>
+                            <td class="text-center">8.0.29</td>
+                            <td class="text-center">5.2.0</td>
                         </tr>
 
                         <tr>
@@ -132,8 +122,7 @@
 
                         <tr>
                             <td colspan="5" class="text-center">
-                                <img src="{{ asset('img/general/datatables-serverside-processing.png') }}"
-                                    alt="Datatables-SSP" />
+                                <img src="{{ asset('img/general/datatables-serverside-processing.png') }}" alt="Datatables-SSP" />
                             </td>
                         </tr>
                     </table>
